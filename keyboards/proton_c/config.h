@@ -23,15 +23,18 @@
 #define PRODUCT_ID      0x6060
 #define DEVICE_VER      0x0006
 #define MANUFACTURER    QMK
-#define PRODUCT         Proton C
-#define DESCRIPTION     A compact ortholinear keyboard
+#define PRODUCT         Proton C Laplace
+#define DESCRIPTION     40 percent staggered keyboard
 
 /* key matrix size */
 #define MATRIX_ROWS 8
 #define MATRIX_COLS 7
 
-#define MATRIX_ROW_PINS { B9 }
-#define MATRIX_COL_PINS { B0 }
+#define MATRIX_ROW_PINS {D3, F4, D2, F5, D7, B4, C6, E6}
+#define MATRIX_COL_PINS {D1, F6, F7, B1, B3, B2, B6}
+
+/* COL2ROW or ROW2COL */
+#define DIODE_DIRECTION COL2ROW
 
 /* Debounce reduces chatter (unintended double-presses) - set 0 if debouncing is not needed */
 #define DEBOUNCE 6
