@@ -3,7 +3,7 @@
 MCU = atmega32u4
 #MCU = STM32F303
 
-DFU_ARGS = -d 0483:df11 -a 0 -s 0x08000000:leave
+#DFU_ARGS = -d 0483:df11 -a 0 -s 0x08000000:leave
 
 # Processor frequency.
 #     This will define a symbol, F_CPU, in all source code files equal to the
